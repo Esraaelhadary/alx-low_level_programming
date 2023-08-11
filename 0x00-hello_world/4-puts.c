@@ -3,7 +3,7 @@
 int main(void)
 {
 const char *message = "\"Programming is like building a multilingual"
-"puzzle";
+" puzzle";
 puts(message);
 return (0);
 }
