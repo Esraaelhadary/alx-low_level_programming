@@ -12,7 +12,10 @@ while ((letter <= 'z') && (capital <= 'Z'))
 {
 putchar(letter);
 putchar(capital);
-letter++;
+letter++;i
+}
+while (capital <= 'Z')
+{
 capital++;
 }
 putchar('\n');
