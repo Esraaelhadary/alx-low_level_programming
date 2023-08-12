@@ -8,14 +8,14 @@ int main(void)
 {
 char letter = 'a';
 char capital = 'A';
-while ((letter <= 'z') && (capital <= 'Z'))
+while (letter <= 'z')
 {
 putchar(letter);
-putchar(capital);
 letter++;
 }
 while (capital <= 'Z')
 {
+putchar(capital);
 capital++;
 }
 putchar('\n');
