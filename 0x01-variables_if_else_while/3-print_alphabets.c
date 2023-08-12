@@ -8,7 +8,7 @@ int main(void)
 {
 char letter = 'a';
 char capital = 'A';
-while ((letter <= 'z') $$ (capital <= 'Z'))
+while ((letter <= 'z') && (capital <= 'Z'))
 {
 putchar(letter);
 putchar(capital);
