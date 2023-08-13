@@ -7,7 +7,7 @@
 int main(void)
 {
 char single = '0';
-while (single >= 10)
+while (single >= 9)
 {
 putchar(single);
 single++;
