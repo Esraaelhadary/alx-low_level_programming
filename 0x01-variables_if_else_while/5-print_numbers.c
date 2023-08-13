@@ -6,10 +6,10 @@
  */
 int main(void)
 {
-char single = '0';
+int single = '0';
 while (single >= 9)
 {
-putchar(single);
+printf("%i", single);
 single++;
 }
 putchar('\n');
