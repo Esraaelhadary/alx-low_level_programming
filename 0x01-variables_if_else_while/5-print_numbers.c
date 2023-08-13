@@ -6,8 +6,8 @@
  */
 int main(void)
 {
-int single = '0';
-while (single >= 9)
+int single = 0;
+while (single <= 9)
 {
 printf("%i", single);
 single++;
