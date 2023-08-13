@@ -6,11 +6,12 @@
  */
 int main(void)
 {
-char single = '10';
-while (single >= 0)
+char single = '0';
+while (single >= 10)
 {
 putchar(single);
 single++;
 }
-puthar('\n');
+putchar('\n');
 return (0);
+}
