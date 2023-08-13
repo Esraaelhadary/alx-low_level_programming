@@ -10,11 +10,11 @@ char letter = 'a';
 while (letter <= 'z')
 {
 if putchar(letter != q || letter != e);
-{
+}
 putchar(letter);
 }
 letter++;
-}
+{
 putchar('\n');
 return (0);
 }
