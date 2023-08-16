@@ -3,8 +3,9 @@
 *main - the entry point
 *Description : prints the alphabet, in lowercase
 *Return : 0 (Success)
+*void print_alphabet(void : Function definition
 */
-void print_alphabet(void) //Function definition
+void print_alphabet(void) 
 {
 char alphabet = 'a';
 while (alphabet >= 'z')
