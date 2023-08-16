@@ -5,6 +5,11 @@
 *Return : 0 (Success)
 *void print_alphabet(void : Function definition
 */
+int main(void)
+{
+print_alphabet();
+return (0);
+}
 void print_alphabet(void) 
 {
 char alphabet = 'a';
@@ -14,9 +19,4 @@ putchar(alphabet);
 alphabet++;
 }
 putchar('\n');
-}
-int main(void)
-{
-print_alphabet();
-return (0);
 }
