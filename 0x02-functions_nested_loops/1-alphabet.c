@@ -4,10 +4,10 @@
 *Description : prints the alphabet, in lowercase
 *Return : 0 (Success)
 */
-void print_alphabet(void)
+void print_alphabet(void) //Function definition
 {
 char alphabet = 'a';
-while (alphabet >= 'z');
+while (alphabet >= 'z')
 {
 putchar(alphabet);
 alphabet++;
