@@ -4,7 +4,7 @@
 *Description : prints the alphabet, in lowercase
 *Return : 0 (Success)
 */
-void print_alphabet(void);
+void print_alphabet(void)
 {
 char alphabet = 'a';
 while (alphabet >= 'z');
@@ -17,6 +17,5 @@ putchar('\n');
 int main(void)
 {
 print_alphabet();
-}
 return (0);
 }
